@@ -21,3 +21,21 @@ This repo contains small, focused exercises with clear tasks, solutions, and exp
 - Basic use of collections (`List`)
 
 ---
+
+## 📘 Exercise 2 — Note Preview with Extension Property
+
+**✅ Task:**
+- Create a Note data class with title and content.
+- Add an extension property called preview that shows the first 10 characters of the content plus ... if the content is longer than 10 characters.
+- Create a list of at least 3 Note objects with different content lengths.
+- Loop through the list and print each note’s title and its preview.
+
+---
+
+**💡 Concepts practiced:**  
+- How to write an extension property for a data class.
+- How to use substring() safely with length checks.
+- Using forEach to print data cleanly.
+- Simple immutable/mutable lists for storing objects.
+
+---
