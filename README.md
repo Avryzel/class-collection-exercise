@@ -39,3 +39,18 @@ This repo contains small, focused exercises with clear tasks, solutions, and exp
 - Simple immutable/mutable lists for storing objects.
 
 ---
+
+## 📘 Exercise 3 — Filter Adult Users
+
+**✅ Task:**
+- Create a `User` data class with `name` and `age`.
+- Add a list of at least 5 `User` objects with different ages.
+- Use `filter` to keep only users who are 18 years old or older.
+- Print the names of the adult users.
+
+**💡 Concepts practiced:**
+- Using `filter` to extract data based on conditions.
+- Looping through a filtered list with `forEach`.
+- Simple list creation with `mutableListOf`.
+
+---
