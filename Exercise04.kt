@@ -9,3 +9,48 @@
     - Use map to create a list of just the names of the in-stock products.
     - Print the list of names.
 */
+
+data class Product(
+    val name: String,
+    val price: Double,
+    val inStock: Boolean
+)
+
+fun main() {
+    val productList = mutableListOf(
+        Product(
+            name = "Laptop Lenovo",
+            price = 1200.0,
+            inStock = false
+        ),
+        Product(
+            name = "Wireless Mouse",
+            price = 25.0,
+            inStock = false
+        ),
+        Product(
+            name = "Xiaomi Monitor",
+            price = 300.0,
+            inStock = false
+        ),
+        Product(
+            name = "Moondrop IEM",
+            price = 500.0,
+            inStock = true
+        ),
+        Product(
+            name = "Mechanical Keyboard",
+            price = 250.0,
+            inStock = true
+        )
+    )
+
+    val inStockProduct = productList.filter { it.inStock }
+
+    val inStockList = inStockProduct.map { it.name }
+
+    println("Product in stock:")
+    inStockList.forEach {
+        println(it)
+    }
+}
