@@ -87,3 +87,18 @@ This repo contains small, focused exercises with clear tasks, solutions, and exp
 - `forEachIndexed` to access both item and index
 
 ---
+
+## 📘 Exercise 6 — Sort Product List by Price
+
+**✅ Task:**
+- Reuse your `Product` data class (from Exercise 4).
+- Create a list of at least 5 `Product` objects.
+- Sort the list by price (from lowest to highest).
+- Print each product name and its price.
+
+**💡 Concepts practiced:**
+- `data class`
+- `sortedBy` for sorting lists by property
+- `forEach` for printing items in a list
+
+---
