@@ -54,3 +54,36 @@ This repo contains small, focused exercises with clear tasks, solutions, and exp
 - Simple list creation with `mutableListOf`.
 
 ---
+
+## 📘 Exercise 4 — Filter and Map In-Stock Products
+
+**✅ Task:**
+- Create a `Product` data class with `name`, `price` (Double), and `inStock` (Boolean).
+- Create a list of at least 5 products with different prices and stock statuses.
+- Use `filter` to create a list of products that are in stock.
+- Use `map` to create a list of just the names of the in-stock products.
+- Print the list of names.
+
+**💡 Concepts practiced:**
+- Filtering lists using `filter`.
+- Transforming lists using `map`.
+- Combining `filter` and `map` for clean, functional-style code.
+- Good use of `forEach` for printing.
+
+---
+
+## 📘 Exercise 5 — Average Student Scores
+
+**✅ Task:**
+- Create a `Student` data class with `name` and `scores (List<Int>)`.
+- Add a list of 4 students with different score sets.
+- Use `map` to calculate the average score of each student.
+- Use `forEach` to print each student's name and their average score.
+
+**💡 Concepts practiced:**
+- `data class`
+- `List` and `List.average()`
+- `map` for transforming data
+- `forEachIndexed` to access both item and index
+
+---
